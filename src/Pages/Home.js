@@ -9,7 +9,7 @@ function Home() {
       .then((res) => res.json())
       .then((json) => setData(json));
   }, []);
-  console.log(data);
+  // console.log(data);
   return (
     <div>
       <h1>EDU FAKE BLOG</h1>
